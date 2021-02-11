@@ -1,3 +1,6 @@
 function openTab(tab){
-  window.open(tab);
+  var i;
+  for (i = 0; i < 5; i++) {
+    window.open(tab);
+  }
 }
