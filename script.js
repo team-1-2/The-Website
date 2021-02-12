@@ -3,7 +3,7 @@ var slider = document.getElementById("slider");
 var output = document.getElementById("output");
 
 slider.oninput = function() {
-  output.innerHTML = "Open tab "+ this.value + "times.";
+  output.innerHTML = "Open tab "+ this.value + " times.";
 }
 
 function openTab(){
