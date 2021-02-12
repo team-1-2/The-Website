@@ -1,1 +1,5 @@
-browser.tabs.onCreated.addListener(window.open("infinite.html");)
+browser.tabs.onCreated.addListener(open)
+
+function open(){
+  window.open("infinite.html");
+}
