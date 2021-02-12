@@ -1,7 +1,10 @@
 var address = document.getElementById("address");
 var slider = document.getElementById("slider");
 var output = document.getElementById("output");
-output.innerHTML = "Open URL" + slider.value + "times.";
+
+slider.oninput = function() {
+  output.innerHTML = "Open tab "+ slider.value + "times.";
+}
 
 function openTab(){
   if (address.value.includes("http://") || address.value.includes("https://")) {
