@@ -7,7 +7,7 @@ slider.oninput = function() {
 }
 
 function openTab(){
-  if (address.value.includes("http://") || address.value.includes("https://")) {
+  if (address.value.includes("://")) {
       a = address.value;
   } else{
       a = "https://" + address.value;
